@@ -1,0 +1,61 @@
+# Name: Yinsheng Dong
+# Student Number: 11148648
+# NSID: yid164
+# Lecture: CMPT 280
+
+
+Q1.
+Name: PriorityQueue<G>
+
+Sets: 
+Q: set of priority queue containing items from G
+G: set of items that can be in the priority queue
+B: {true, false}
+
+Signatures:
+newPriorityQueue<G>: ->Q
+insert(g): G->Q
+isEmpty: B
+isFull: B
+maxItem: /->G
+minItem: /->G
+deleteMax: /->Q
+deleteAllMax: /->Q
+deleteMin: /->Q
+frequency: ->N0+
+
+Precondition: for all q ∈ Q, g ∈ G
+newPriorityQueue<G>: none
+q.insert(g): q is not full
+q.isEmpty: none
+q.isFull: none
+q.maxItem: q is not empty
+q.minItem: q is not empty
+q.deleteMax: q is not empty
+q.deleteAllMax: q is not empty
+q.deleteMin: q is not empty
+q.frequency: none
+
+Semantics: for all q ∈ Q, g ∈ G
+newPriorityQueue<G>: construct new empty queue to hold elements from G
+q.insert(g): g is added to q
+q.isEmpty: return true if q is empty, false otherwise
+q.isFull: return true if q is full, false otherwise
+q.maxItem: return the highest priority item from q
+q.minItem: return the lowest priority item from q
+q.deleteMax: remove the highest priority item from the q
+q.deleteAllMax: remove all items that are tied fro the highest priority from q
+q.deleteMin: remove the lowest priority item from q
+q.frequency: return the number of times a certain item occurs in the q 
+
+Q2.
+Algorithm insert(H, e)
+while e is larger than its parent and is not at the root: 
+	swap e with its parent
+
+in the worst case, we assume that there are n parents smaller than e and is not at the root, then e have to be swapped with its parents n times. So the e is from the last node. So the high of the tree of the heap is log2(n+1), and every change in for the insertion of the swap is 3 times (left, right, parent), so the insertion algorithm in statement counting approach is 3 * log2(n+1). In big-O is O(logn)
+
+Algorithm deleteItem(H)
+while e is smaller than its largest child
+	swap e with its largest child
+in the worst case, we assume that there are n children larger than e. So the e is from the root, go down singly, to reach the final destination, the swap condition can not higher than high of the tree, so the heap is log2(n+1), every time when the swapping condition have to move the cursor 3 times (left, right, parent), so it is counted by 3 * log2(n+1), the big-O is also O(logn)
