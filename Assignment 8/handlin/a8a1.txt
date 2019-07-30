@@ -1,0 +1,27 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 280
+
+
+
+// testing for “words-50.txt"
+Sorted 50 strings in 0.528279ms
+
+// testing for “words-100.txt”
+Sorted 100 strings in 0.685628ms
+
+// testing for “words-500.txt”
+Sorted 500 strings in 6.328701ms
+
+// testing for “words-1000.txt”
+Sorted 1000 strings in 6.809165ms
+
+// testing for “words-10000.txt”
+Sorted 10000 strings in 26.810048ms
+
+// testing for “words-50000.txt”
+Sorted 50000 strings in 80.72691ms
+
+// testing for “words-235884.txt”
+Sorted 235884 strings in 361.130745ms

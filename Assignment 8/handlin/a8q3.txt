@@ -1,0 +1,98 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 280
+
+Part (a) and Part(b)
+// Testing for knapsack-basictest
+************** Starting test Backtracking Algorithm **************
+(BACKTRACK TEST) The best value is: 540.0
+(BACKTRACK TEST) The best weight is: 95.0
+************** Starting test Greedy Algorithm **************
+(GREEDY TEST) The best value is: 540.0
+(GREEDY TEST) The best weight is: 95.0
+************** Starting counting the ratio  **************
+The ratio of V(greedy)/V(backtrack) is 100.0%
+
+
+
+// Testing for Knapsack-Template/knapsack-10
+************** Starting test Backtracking Algorithm **************
+(BACKTRACK TEST) The best value is: 2421.591157673611
+(BACKTRACK TEST) The best weight is: 249.33218874494256
+************** Starting test Greedy Algorithm **************
+(GREEDY TEST) The best value is: 2421.591157673611
+(GREEDY TEST) The best weight is: 249.33218874494258
+************** Starting counting the ratio  **************
+The ratio of V(greedy)/V(backtrack) is 100.0%
+
+
+
+// Testing for Knapsack-Template/knapsack-20
+************** Starting test Backtracking Algorithm **************
+(BACKTRACK TEST) The best value is: 2437.595444245483
+(BACKTRACK TEST) The best weight is: 74.53001493289378
+************** Starting test Greedy Algorithm **************
+(GREEDY TEST) The best value is: 1928.4911344277841
+(GREEDY TEST) The best weight is: 75.01346457509017
+************** Starting counting the ratio  **************
+The ratio of V(greedy)/V(backtrack) is 79.11448714676756%
+
+
+// Testing for Knapsack-Template/knapsack-30
+************** Starting test Backtracking Algorithm **************
+(BACKTRACK TEST) The best value is: 2888.5114808735034
+(BACKTRACK TEST) The best weight is: 84.76249114570437
+************** Starting test Greedy Algorithm **************
+(GREEDY TEST) The best value is: 2493.370017170383
+(GREEDY TEST) The best weight is: 84.0421615292502
+************** Starting counting the ratio  **************
+The ratio of V(greedy)/V(backtrack) is 86.32023911555903%
+
+
+// Testing for Knapsack-Template/knapsack-40
+************** Starting test Backtracking Algorithm **************
+(BACKTRACK TEST) The best value is: 2623.5085870257085
+(BACKTRACK TEST) The best weight is: 14.719240813789327
+************** Starting test Greedy Algorithm **************
+(GREEDY TEST) The best value is: 886.5356533209077
+(GREEDY TEST) The best weight is: 15.32171024061756
+************** Starting counting the ratio  **************
+The ratio of V(greedy)/V(backtrack) is 33.79198595747612%
+
+
+// Testing for Knapsack-Template/knapsack-50
+************** Starting test Backtracking Algorithm **************
+(BACKTRACK TEST) The best value is: 5236.349689326807
+(BACKTRACK TEST) The best weight is: 61.086299037014875
+************** Starting test Greedy Algorithm **************
+(GREEDY TEST) The best value is: 3555.294726883729
+(GREEDY TEST) The best weight is: 60.546784864350215
+************** Starting counting the ratio  **************
+The ratio of V(greedy)/V(backtrack) is 67.8964343067165%
+
+
+// Testing for Knapsack-Template/knapsack-100
+************** Starting test Backtracking Algorithm **************
+(BACKTRACK TEST) The best value is: 3585.694702272544
+(BACKTRACK TEST) The best weight is: 42.71325407657757
+************** Starting test Greedy Algorithm **************
+(GREEDY TEST) The best value is: 1799.5695781461004
+(GREEDY TEST) The best weight is: 41.60250359262583
+************** Starting counting the ratio  **************
+The ratio of V(greedy)/V(backtrack) is 50.187473490299325%
+
+
+// Testing for Knapsack-Template/knapsack-500
+************** Starting test Backtracking Algorithm **************
+(BACKTRACK TEST) The best value is: 2345.1120366068913
+(BACKTRACK TEST) The best weight is: 4.672667238410519
+************** Starting test Greedy Algorithm **************
+(GREEDY TEST) The best value is: 1861.4962958504916
+(GREEDY TEST) The best weight is: 4.642235528585658
+************** Starting counting the ratio  **************
+The ratio of V(greedy)/V(backtrack) is 79.37771274006438%
+
+Part(c)
+From the ratio of V(greedy)/V(backtrack), I think greedy algorithm can not provide any guaranteed minimum performance relative to the optimum, because from the solution that I get, using backtrack test vs. greedy test, the greedy algorithm does not always give the correct answer, sometimes it is 100% correct, sometimes is 70, or sometimes is 30. Based on my observation, the greedy algorithm also does not choose times with value has at least  of the optimum, but I think if the datas are small size, maybe the optimum could get better.
+
