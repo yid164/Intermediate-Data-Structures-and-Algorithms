@@ -1,0 +1,10 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 280
+
+Jack plundered 36.561438513145475 pounds of WHEAT 
+Jack plundered 69.20769746962362 pounds of BARLEY 
+Jack plundered 0.0 pounds of OATS 
+Jack plundered 127.55164246921046 pounds of RYE 
+Jack plundered 46.784383845028586 pounds of OTHER 
