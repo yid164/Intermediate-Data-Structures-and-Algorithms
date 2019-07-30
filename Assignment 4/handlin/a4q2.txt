@@ -1,0 +1,27 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture: CMPT 280
+
+Q2.
+(e)
+1.
+Filename		Avg.Queries for hasQuestLog	Avg.Queries for treeQuestLog
+quests4.csv		1.25				2.0
+quests16.csv		1.125				4.0
+quests250.csv		1.232				13.34
+quests1000.csv		2.148				18.08
+quests100000.csv	1.45367				30.8778
+
+
+2.
+The hash quest log shows that the Big-Oh should be O(1) because theses average numbers are pretty similar
+
+3.
+The tree quest log shows that the Big-oh should be O(logn)
+
+4.
+I think both are okay, all method need to go through all items, so the complexity is O(n)
+
+5.
+I think hash quest is better, because the hash quest Big-Oh is O(1), it is faster than O(logn)
